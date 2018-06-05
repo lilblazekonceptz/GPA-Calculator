@@ -1,0 +1,525 @@
+<!doctype html>
+<html lang="en">
+<!--
+
+Page    : index / GPA Calculator  
+Version : 1.0
+Author  : LilBlaze Konceptz
+URI     : https://github.com/lilblazekonceptz
+
+ -->
+
+<head>
+    <title>Mobile GPA Calculator</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Mobile App - Mobile App GPA Calculator">
+    <meta name="keywords" content="HTML5, bootstrap, mobile, app, landing, ios, android, responsive">
+
+    <!-- Font -->
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Themify Icons -->
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <!-- Owl carousel -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <!-- Main css -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+
+    <!--Font Awesome Script-->
+    <script src="https://use.fontawesome.com/35c92ca511.js"></script>
+</head>
+
+<body data-spy="scroll" data-target="#navbar" data-offset="30">
+
+    <!-- Nav Menu -->
+
+    <div class="nav-menu fixed-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <nav class="navbar navbar-dark navbar-expand-lg">
+                        <a class="navbar-brand" href="index.html">
+                            <img src="images/logo_2.png" class="img-fluid" alt="logo">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbar">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#home">HOME
+                                        <span class="sr-only">(current)</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#features">FEATURES</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#howtouse">HOW TO USE</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#contact">CONTACT</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#calculateNow" class="btn btn-outline-light my-3 my-sm-0 ml-lg-3">Calculate Now</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End Nav Menu Bar-->
+
+    <header class="bg-gradient" id="home">
+        <div class="container mt-5">
+            <h1>Mobile App GPA Calculator</h1>
+            <p class="tagline">The one and only solution for easy calculation of Grade Point Average for Students and Lecturers. Just input
+                the Course Units and Grades, then you are good to go. </p>
+        </div>
+        <div class="img-holder mt-3">
+            <img src="images/iphonex.png" alt="phone" class="img-fluid">
+        </div>
+    </header>
+
+
+    <div class="section light-bg" id="features">
+
+        <!--Start Section for Features-->
+        <div class="container">
+
+            <div class="section-title">
+                <small>HIGHLIGHTS</small>
+                <h3>Features you love</h3>
+            </div>
+
+
+            <div class="row">
+                <div class="col-12 col-lg-4">
+                    <div class="card features">
+                        <div class="card-body">
+                            <div class="media">
+                                <span class="ti-face-smile gradient-fill ti-3x mr-3"></span>
+                                <div class="media-body">
+                                    <h4 class="card-title">Simple</h4>
+                                    <p class="card-text">Easy to use, click and type course units and grades, here you go! </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="card features">
+                        <div class="card-body">
+                            <div class="media">
+                                <span class="ti-settings gradient-fill ti-3x mr-3"></span>
+                                <div class="media-body">
+                                    <h4 class="card-title">Customize</h4>
+                                    <p class="card-text">Reponsive Front end designs for easy accessiblity and happy user experience </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="card features">
+                        <div class="card-body">
+                            <div class="media">
+                                <span class="ti-mobile gradient-fill ti-3x mr-3"></span>
+                                <div class="media-body">
+                                    <h4 class="card-title">Portablity</h4>
+                                    <p class="card-text">Works on all platforms, Windows, Mobile(Android and iOS).</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End Section for Features-->
+    </div>
+    <!-- // end .section -->
+
+
+    <div class="section light-bg" id="howtouse">
+
+        <div class="container">
+                    <div class="section-title">
+                        <small>HERE WE GO!</small>
+                        <h3>How to Use this App</h3>
+                    </div>
+            <div class="row">
+                <div class="col-md-7 d-flex align-items-center">
+
+                    <ul class="list-unstyled ui-steps">
+                       
+                        <li class="media">
+                            <div class="circle-icon mr-4">1</div>
+                            <div class="media-body">
+                                <h5>Input Course Units</h5>
+                                <p2>You will have to input course units ranging from 0-5 for each course</p2>
+                            </div>
+                        </li>
+                        <li class="media my-4">
+                            <div class="circle-icon mr-4">2</div>
+                            <div class="media-body">
+                                <h5>Input Course Grade</h5>
+                                <p2>Input Course Grade which can be A, B, C, D, E or F. Note that Inputs should be in capital
+                                    letter</p2>
+                            </div>
+                        </li>
+                        <li class="media">
+                            <div class="circle-icon mr-4">3</div>
+                            <div class="media-body">
+                                <h5>Click on Calculate GPA</h5>
+                                <p2>Clicking on the Calculate GPA button will display your GPA for the selected course units
+                                    and grades selected above </p2>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-5">
+                    <img src="images/iphonex2.png" alt="iphone" class="img-fluid">
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <!-- // end .section -->
+
+
+    <!--Section for Calculate Now-->
+    <div class="section light-bg" id="calculateNow">
+        <div class="container">
+            <div class="section-title">
+                <small>Ready? Go Now!</small>
+                <h3>Calculate your GPA Now</h3>
+            </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 d-flex align-items-center">
+
+                    <div class="" style="width: 100%">
+                            <strong style="text-align:left; color: #633991; font-weight: 300; font-size: 18pt; margin-bottom: 10%">Select Institution</strong>
+                            <select id="selectInstitution" style="padding: 1%; margin-bottom: 1%;  color: #e6388e; font-size: 14pt; border-color: #633991; border-radius: 5%">
+                                <option>University</option>
+                                <option>Polytechnic</option>
+                            </select>
+                            <div class="card features">
+                                <div class="card-body">
+                                    <div class="media">
+
+                                        <div class="row">
+                                            <div class="col-md-8">
+                                                    <table table table-bordered>
+                                                            <thead>
+                                                                <tr>
+                                                                  <th scope="col" style="color:#e6388e; font-family: Raleway; font-size: 18px">Course Units</th>
+                                                                  <th scope="col" style="color:#e6388e; font-family: Raleway; font-size: 18px">Course Grades</th>
+                                                                  <th scope="col" style="color:#e6388e; font-family: Raleway; font-size: 18px"></th>
+                                                                </tr>
+                                                              </thead>
+                                                              <tbody>
+                                                                    <tr>
+                                                                      <td><input id="credits" style="width: 90%; font-size: 12pt; color: #633991; border-radius: 5%" min="0" placeholder="Enter Course Units" type="number"></td>
+                                                                      <td>
+                                                                        <select id="letter-grade"  class="form-control">
+                                                                          <option value="">Select Course Grade</option>
+                                                                          <option value="A">A</option>
+                                                                          <option value="B">B</option>
+                                                                          <option value="C">C</option>
+                                                                          <option value="D">D</option>
+                                                                          <option value="E">E</option>
+                                                                          <option value="F">F</option>
+                                                                        </select>
+                                                                      </td>
+                                                                      <td><input value="YES" name="pnpst" type="checkbox" id="pass-fail"></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                    <td><input id="credits" style="width: 90%; font-size: 12pt; color: #633991; border-radius: 5%" min="0" placeholder="Enter Course Units" type="number"></td>
+                                                                        <td>
+                                                                        <select id="letter-grade"  class="form-control">
+                                                                                <option value="">Select Course Grade</option>
+                                                                                <option value="A">A</option>
+                                                                                <option value="B">B</option>
+                                                                                <option value="C">C</option>
+                                                                                <option value="D">D</option>
+                                                                                <option value="E">E</option>
+                                                                                <option value="F">F</option>
+                                                                        </select>
+                                                                      </td>
+                                                                      <td><input value="YES" name="pnpst" type="checkbox" id="pass-fail"></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                    <td><input id="credits" style="width: 90%; font-size: 12pt; color: #633991; border-radius: 5%" min="0" placeholder="Enter Course Units" type="number"></td>
+                                                                    <td>
+                                                                        <select id="letter-grade" class="form-control" >
+                                                                                <option value="">Select Course Grade</option>
+                                                                                <option value="A">A</option>
+                                                                                <option value="B">B</option>
+                                                                                <option value="C">C</option>
+                                                                                <option value="D">D</option>
+                                                                                <option value="E">E</option>
+                                                                                <option value="F">F</option>
+                                                                        </select>
+                                                                      </td>
+                                                                      <td><input value="YES" name="pnpst" type="checkbox" id="pass-fail"></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                    <td><input id="credits" style="width: 90%; font-size: 12pt; color: #633991; border-radius: 5%" min="0" placeholder="Enter Course Units" type="number"></td>
+                                                                    <td>
+                                                                        <select id="letter-grade" class="form-control">
+                                                                                <option value="">Select Course Grade</option>
+                                                                                <option value="A">A</option>
+                                                                                <option value="B">B</option>
+                                                                                <option value="C">C</option>
+                                                                                <option value="D">D</option>
+                                                                                <option value="E">E</option>
+                                                                                <option value="F">F</option>
+                                                                        </select>
+                                                                      </td>
+                                                                      <td><input value="YES" name="pnpst" type="checkbox" id="pass-fail"></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                    <td><input id="credits" style="width: 90%; font-size: 12pt; color: #633991; border-radius: 5%" min="0" placeholder="Enter Course Units" type="number"></td>
+                                                                     <td>
+                                                                        <select id="letter-grade" class="form-control" >
+                                                                                <option value="">Select Course Grade</option>
+                                                                                <option value="A">A</option>
+                                                                                <option value="B">B</option>
+                                                                                <option value="C">C</option>
+                                                                                <option value="D">D</option>
+                                                                                <option value="E">E</option>
+                                                                                <option value="F">F</option>
+                                                                        </select>
+                                                                      </td>
+                                                                      <td><input value="YES" name="pnpst" type="checkbox" id="pass-fail"></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                    <td><input id="credits" style="width: 90%; font-size: 12pt; color: #633991; border-radius: 5%" min="0"placeholder="Enter Course Units" type="number"></td>
+                                                                     <td>
+                                                                        <select id="letter-grade" class="form-control" >
+                                                                                <option value="">Select Course Grade</option>
+                                                                                <option value="A">A</option>
+                                                                                <option value="B">B</option>
+                                                                                <option value="C">C</option>
+                                                                                <option value="D">D</option>
+                                                                                <option value="E">E</option>
+                                                                                <option value="F">F</option>
+                                                                        </select>
+                                                                      </td>
+                                                                      <td><input value="YES" name="pnpst" type="checkbox" id="pass-fail"></td>
+                                                                    </tr>
+
+                                                                    <tr>
+                                                                        <td><input id="credits" style="width: 90%; font-size: 12pt; color: #633991; border-radius: 5%" min="0" placeholder="Enter Course Units" type="number"></td>
+                                                                        <td>
+                                                                        <select id="letter-grade" class="form-control" >
+                                                                                        <option value="">Select Course Grade</option>
+                                                                                        <option value="A">A</option>
+                                                                                        <option value="B">B</option>
+                                                                                        <option value="C">C</option>
+                                                                                        <option value="D">D</option>
+                                                                                        <option value="E">E</option>
+                                                                                        <option value="F">F</option>
+                                                                            </select>
+                                                                            </td>
+                                                                            <td><input value="YES" name="pnpst" type="checkbox" id="pass-fail"></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                    <td><input id="credits" style="width: 90%; font-size: 12pt; color: #633991; border-radius: 5%" min="0" placeholder="Enter Course Units" type="number"></td>
+                                                                                    <td>
+                                                                                    <select id="letter-grade" class="form-control" >
+                                                                                                    <option value="">Select Course Grade</option>
+                                                                                                    <option value="A">A</option>
+                                                                                                    <option value="B">B</option>
+                                                                                                    <option value="C">C</option>
+                                                                                                    <option value="D">D</option>
+                                                                                                    <option value="E">E</option>
+                                                                                                    <option value="F">F</option>
+                                                                                        </select>
+                                                                                        </td>
+                                                                                        <td><input value="YES" name="pnpst" type="checkbox" id="pass-fail"></td>
+                                                                                        </tr>
+                                                                  </tbody>
+                                                       </table>
+                                            </div>
+                                            <div id="result" class="col-md-4">
+                                                    <div class="top">
+                                                    <div class="GPA">
+                                                      <i class="fa fa-graduation-cap"></i>
+                                                      <span id="gpa"></span>
+                                                    </div>
+                                                    <div class="row">
+                                                      <div class="left col-6">
+                                                        <label>Total Credits</label>
+                                                        <span style="padding-left: 40%" id="total-credits"></span>
+                                                      </div>
+                                                      <div class="right col-6">
+                                                        <label>Grade Points</label>
+                                                        <span style="padding-left: 40%" id="total-points"></span>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                  <div class="bottom">
+                                                        <form>
+                                                          <div class="form-row">
+                                                            <div class="form-group col-6">
+                                                              <label for="accumulated-credits">Accumulated Credit Units</label>
+                                                              <input id="accumulated-credits" class="form-control" min="0" placeholder="0" type="number">
+                                                            </div>
+                                                            <div class="col-6 form-group">
+                                                              <label for="accumulated-points">Accumulated Grade Points</label>
+                                                              <input id="accumulated-points" class="form-control" min="0" placeholder="0" type="number">
+                                                            </div>
+                                                          </div>
+                                                          <input style="width: 100%" type="submit" onclick="calculateGPA()" class="btn btn-primary" value="Calculate GPA">
+                                                        </form>
+                                                      </div>
+                                                  </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <button class="btn btn-primary btn-lg btn-outline-light" type="submit" onclick="addRow()" style="text-align: center; width: 35%; color:white; background-color: #633991 ">Add More Courses</button> 
+                            <button class="btn btn-primary btn-lg btn-outline-light" type="submit" onclick="window.location" style="text-align: center; width: 20%; color:white; background-color: #633991 ">Clear</button> 
+                            <br>
+                            <br>
+                        </div>  
+                    </div>
+                                <div class="col-md-4 container">
+                                    <h3>Fast, Accurate, Reliable and Trustworthy</h3>
+                                    <p>GPA Calculator is a Web Application that helps 
+                                        Students to Calculate their Grade Point Average with ease.
+                                        It serves both Students and Lecturers in Nigerian Tertiary 
+                                        Institutions(University and Polytechnic).
+
+                                        <br>
+
+                                        All Semester Results can be calculated in one click. 
+                                        All you need to do is to input the Grades and Course Units for 
+                                        each course, Select the GPA Scale(University or Polytechnic),
+                                        Add more rows for more courses, and click on Calculate GPA.
+                                    </p>
+                                </div>
+                         </div>
+        </div>  
+    </div>
+    <!-- // end .calculateNow -->
+
+
+    <!--Download Anywhere section-->
+    <div class="section bg-gradient">
+        <div class="container">
+            <div class="call-to-action">
+
+                <div class="box-icon">
+                    <span class="ti-mobile gradient-fill ti-3x"></span>
+                </div>
+                <h2>Download Anywhere</h2>
+                <p class="tagline">Available for all major mobile and desktop platforms. Rapidiously visualize optimal ROI rather than enterprise-wide
+                    methods of empowerment. </p>
+                <div class="my-4">
+
+                    <a href="#" class="btn btn-light">
+                        <img src="images/appleicon.png" alt="icon"> App Store</a>
+                    <a href="#" class="btn btn-light">
+                        <img src="images/playicon.png" alt="icon"> Google play</a>
+                </div>
+                <p class="text-primary">
+                    <small>
+                        <i>*Works on iOS 10.0.5+, Android Kitkat and above. </i>
+                    </small>
+                </p>
+            </div>
+        </div>
+
+    </div>
+    <!-- // end .section -->
+
+
+    <div class="light-bg py-5" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 text-center text-lg-left">
+                    <p class="mb-2">
+                        <span class="ti-location-pin mr-2"></span> 14 Ada George, Port Harcourt, Rivers State</p>
+                    <div class=" d-block d-sm-inline-block">
+                        <p class="mb-2">
+                            <span class="ti-email mr-2"></span>
+                            <a class="mr-4" href="mailto:info@elitepath.org">info@elitepath.org</a>
+                        </p>
+                    </div>
+                    <div class="d-block d-sm-inline-block">
+                        <p class="mb-0">
+                            <span class="ti-headphone-alt mr-2"></span>
+                            <a href="tel:09031292671">+234-903-1292-671</a>
+                        </p>
+                    </div>
+
+                </div>
+                <div class="col-lg-6">
+                    <div class="social-icons">
+                        <a href="#">
+                            <span class="ti-facebook"></span>
+                        </a>
+                        <a href="#">
+                            <span class="ti-twitter-alt"></span>
+                        </a>
+                        <a href="#">
+                            <span class="ti-instagram"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- // end .section -->
+    <footer class="my-5 text-center">
+
+        <!-- Copyright removal is not prohibited! -->
+
+
+        <p class="mb-2">
+            <small>COPYRIGHT © 2018. ALL RIGHTS RESERVED. GPA CALCULATOR
+                <a href="https://elitepath.org">ELITEPATH SOFTWARE</a>
+            </small>
+        </p>
+
+        <small>
+            <a href="#" class="m-2">TERMS</a>
+            <a href="#" class="m-2">PRIVACY</a>
+        </small>
+    </footer>
+
+    
+    
+    
+    
+    
+    
+    <!-- jQuery and Bootstrap -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- Plugins JS -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+    <script src="js/JavaScript.js"></script>
+
+</body>
+
+</html>
